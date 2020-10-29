@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+html {
+  font-size: 18px;
+}
+
+/* -------------comune-------------- */
+h1 {
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+}
+.text {
+  color: hsl(201, 11%, 66%);
+  font-weight: 400;
+}
+h2,
+h3 {
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+}
+.btn {
+  display: block;
+  text-decoration: none;
+  border: 1px solid;
+  border-radius: 50px;
+  padding: 1em 4em;
+  margin: 0.7em 0;
+
+  font-weight: 600;
+  color: white;
+}
+.ios {
+  border-color: hsl(171, 66%, 44%);
+  background-color: hsl(171, 66%, 44%);
+  box-shadow: 0px 1.5px 0px 1.5px hsl(171, 68%, 36%);
+}
+.mac {
+  border-color: hsl(233, 100%, 69%);
+  background-color: hsl(233, 100%, 69%);
+  box-shadow: 0px 1.5px 0px 1.5px hsl(233, 74%, 62%);
+}
+ul {
+  list-style: none;
+}
+
+/* ------------HEADER-------------- */
+header {
+  height: 100%;
+  width: 100%;
+  background-image: url("images/bg-header-mobile.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  text-align: center;
+
+  padding: 1em;
+}
+.logo {
+  margin: 4em 0 2em 0;
+}
+header span {
+  margin: 1em 0 2em 0;
+}
+
+/* -----------------BODY ---------------------- */
+main {
+  text-align: center;
+  padding: 2em;
+}
+.presentation,
+.benef,
+.parteners {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.space {
+  height: 10em;
+  max-height: 100px;
+}
+.presentation img,
+.benef .container-text-img img {
+  width: 90%;
+  max-width: 100%;
+  margin: 2em 0;
+}
+.benef .container-text img {
+  margin: 3em 0 2em 0;
+}
+.presentation h2,
+.presentation h3,
+.benef h2,
+.benef h3,
+.parteners h2 {
+  margin: 1em 0;
+}
+.parteners h2 {
+  font-size: 1.8em;
+}
+
+/* PARTENERS */
+.parteners-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.parteners img {
+  display: block;
+  width: 40%;
+  max-width: 100%;
+  margin: 2em;
+}
+.parteners .btn {
+  margin: 1em 0;
+}
+.parteners span {
+  margin: 1em;
+}
+
+/* FOOTER */
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.f-text {
+  text-decoration: none;
+  display: block;
+  margin: 1em 0;
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+}
+.f-logo {
+  margin: 4em 0 2em 0;
+  width: 20%;
+  max-width: 250px;
+}
+
+.f-icons {
+  padding: 30px;
+}
+.f-icons img {
+  margin-right: 2em;
+}
+.f-icons img:last-child {
+  margin-right: 0;
+}
